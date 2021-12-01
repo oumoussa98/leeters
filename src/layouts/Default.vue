@@ -39,7 +39,7 @@ export default {
     Logo,
     ToggleTheme,
     Search
-  }
+  },
 }
 </script>
 
@@ -52,6 +52,8 @@ export default {
   padding: 0 calc(var(--space) / 2);
   top:0;
   z-index: 10;
+  max-width: 1400px;
+  margin: 0 auto;
 
   &__left,
   &__right {
@@ -61,7 +63,6 @@ export default {
 
   @media screen and (min-width: 1300px) {
     //Make header sticky for large screens
-    position: sticky;
     width: 100%;
   }
 }
