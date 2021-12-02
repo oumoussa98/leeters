@@ -1,18 +1,19 @@
 ---
-title: A post with a cover image
-author: Sra9ziit
-author_link: https://profile.intra.42.fr/users/aeddaoud
+title: tes post 1
+author: oumoussa
+author_link: https://profile.intra.42.fr/users/aoumouss
 description: Markdown is intended to be as easy-to-read and easy-to-write as is
   feasible. Readability, however, is emphasized above all else. A
   Markdown-formatted document should be publishable as-is, as plain text,
   without looking like it's been marked up with tags or formatting instructions.
 tags:
-  - Markdown
-  - Cover Image
+  - test
+  - hello_world
 published: true
-date: 2019-01-07
+date: 2021-12-02T14:39:29.884Z
 ---
-![ff]('./images'/download.png "fff")
+# this is a header
+## Header
 
 ```js
 <script setup>

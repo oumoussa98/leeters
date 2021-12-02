@@ -1,5 +1,5 @@
 ---
-title: A post with a cover image
+title: tes post 3
 author: Sra9ziit
 author_link: https://profile.intra.42.fr/users/aeddaoud
 description: Markdown is intended to be as easy-to-read and easy-to-write as is
@@ -7,12 +7,16 @@ description: Markdown is intended to be as easy-to-read and easy-to-write as is
   Markdown-formatted document should be publishable as-is, as plain text,
   without looking like it's been marked up with tags or formatting instructions.
 tags:
-  - Markdown
-  - Cover Image
+  - test
+  - hello_world
 published: true
-date: 2019-01-07
+date: 2021-12-02T15:17:40.814Z
 ---
-![ff]('./images'/download.png "fff")
+![test]('./images'/download.png "test")
+
+# this is a header
+
+## Header
 
 ```js
 <script setup>
