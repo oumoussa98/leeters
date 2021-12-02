@@ -12,7 +12,7 @@ tags:
 published: true
 date: 2019-01-07
 ---
-![ff]('./images'/download.png "fff")
+![ff](/uploads/xa7en7o59vtxdhgte92u.png "fff")
 
 ```js
 <script setup>
