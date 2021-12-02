@@ -28,7 +28,11 @@ module.exports = {
           }
         }
       }
-    }
+    },
+    { 
+      use: 'gridsome-plugin-netlify-cms',
+      options: { contentTypes: ['Post'] } 
+    },
   ],
 
   transformers: {

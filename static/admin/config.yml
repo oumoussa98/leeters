@@ -3,10 +3,8 @@ backend:
   branch: main
   repo: oumoussa98/leeters_blog
 
-local_backend: true
-
-media_folder: "content/posts/images"
-public_folder: "'./images'"
+media_folder: 'static/uploads'
+public_folder: '/uploads'
 
 collections:
   - name: "posts"
