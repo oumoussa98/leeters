@@ -29,6 +29,7 @@ module.exports = {
         }
       }
     },
+    { use: 'gridsome-plugin-netlify-cms' },
     { 
       use: 'gridsome-plugin-netlify-cms-paths',
       options: { contentTypes: ['Post'] } 
