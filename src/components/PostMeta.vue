@@ -5,8 +5,8 @@
         <strong>{{ post.timeToRead }} min read.</strong>
       </template>
       <span class="author">Created by
-        <g-link :to='post.author_link'>
-          {{ post.author }} Sra9ziit
+        <g-link target="_blank" :to='post.author_link'>
+          {{ post.author }}
         </g-link>
       </span>
     </div>

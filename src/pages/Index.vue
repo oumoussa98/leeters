@@ -25,6 +25,8 @@ query($page: Int) {
         timeToRead
         description
         path
+        author
+        author_link
         tags {
           id
           title
