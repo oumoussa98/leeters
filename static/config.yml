@@ -1,7 +1,7 @@
 backend:
   name: github
-  branch: new-posts
-  repo: oumoussa98/Newsfeeds
+  branch: main
+  repo: oumoussa98/leeters_blog
 
 local_backend: true
 
