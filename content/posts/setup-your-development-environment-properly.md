@@ -1,16 +1,15 @@
 ---
-title: "Setup your Development environment properly. "
+title: Setup your shell
 author: Sra9Ziit
 author_link: https://profile.intra.42.fr/users/aeddaoud
-description: In this article i will guide you through how to setup your
-  development environment
+description: "Using the default config you any shell in a nightmare for me, "
 tags:
   - tools
   - tricks
 published: false
 date: 2021-12-03T20:28:42.518Z
 ---
-Having a proper development environment is critical to me, so i decided to share with you how i setup my tools and plugins that saves me a ton of time every day.
+Having a proper shell config is critical to me, so i decided to share with you how i setup my config and plugins that saves me a ton of time every day.
 
 Since i do every thing in the terminal it is so important to have a beautiful and a smart one.
 
@@ -18,7 +17,9 @@ if you use zsh you may want to give oh my zsh a try, it is to feature rich and c
 
 so let's start by installing it.
 
-```sh
+*before doin't so you may consider doing a backup. just in case.*
+
+```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
@@ -67,7 +68,7 @@ if you want to take if further you take a look on this list of plugins and pick 
 
 [Oh My Zsh Plugins](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/)
 
-also if you use a lot of command with the same flags every time. maybe it's time to make a function for them that will the job for you.
+also if you use a lot of command with the same flags every time. maybe it's time to make a [shell functions](https://www.gnu.org/software/bash/manual/html_node/Shell-Functions.html) for them, you will thank me later.
 
 for example if you forget to compile using the flags like me you can make a function that will add the flags for you.
 
@@ -79,14 +80,12 @@ function fcc() {
 }
 ```
 
-this function will compile the given files with the **\-Wall -Werror -Wextra -fsanitize=address** flgas also run the binary file if the compilation succeed.
+this function will compile the given files with the **\-Wall -Werror -Wextra -fsanitize=address** flags also run the binary file if the compilation succeed.
 
-now we have a proper shell, we need a proper files editor, i use vim to do every thing if you also use vim.
-
-i suggestion to take a look on this neovim config. [Lunar Vim](https://github.com/LunarVim/LunarVim).
+now we have a proper shell, we need a proper files editor, i use vim to do every thing if you also use vim, i suggestion to take a look on this [neovim](https://github.com/neovim/neovim) config. [Lunar Vim](https://github.com/LunarVim/LunarVim).
 
 > i bet my vim is better than your vscode.
 
-unfortunately you can't install Lunar vim on mac's easily, you need some tools such rust, cargo, npm,
+unfortunately you can't install **Lunar vim** on 42 iMac's easily, you need some pre installed such rust, cargo, npm,
 
 but that's not a problem you can make your own config.
