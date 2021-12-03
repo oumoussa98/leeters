@@ -13,7 +13,7 @@ published: true
 date: 2021-12-02T17:29:04.282Z
 ---
 
-<img src="/uploads/xa7en7o59vtxdhgte92u.png" alt="drawing" width="400"/>
+<img src="/uploads/xa7en7o59vtxdhgte92u.png" alt="drawing" width="200"/>
 
 # this is a header
 
