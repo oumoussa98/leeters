@@ -2,11 +2,13 @@
 title: Setup your shell
 author: Sra9Ziit
 author_link: https://profile.intra.42.fr/users/aeddaoud
-description: "Using the default config you any shell in a nightmare for me, "
+description: Using the default config fo any shell in a nightmare for me, in
+  this article ill share with you how i setup my shell config and the plugins i
+  use.
 tags:
   - tools
   - tricks
-published: false
+published: true
 date: 2021-12-03T20:28:42.518Z
 ---
 Having a proper shell config is critical to me, so i decided to share with you how i setup my config and plugins that saves me a ton of time every day.
