@@ -4,7 +4,7 @@ author: Sra9Ziit
 author_link: https://profile.intra.42.fr/users/aeddaoud
 description: Since many people working the same project (at least for now), i
   decided to make an article sharing my resources with everyone. and i ill try
-  to keep it update to date when ever i found a new resource or a better one.
+  to keep it up to date when ever i found a new resource or a better one.
 tags:
   - resources
 published: true
