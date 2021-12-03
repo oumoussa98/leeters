@@ -5,7 +5,7 @@ author_link: https://profile.intra.42.fr/users/aeddaoud
 description: this is a description
 tags:
   - resources
-published: false
+published: true
 date: 2021-12-03T18:19:40.493Z
 ---
 This article will be constantly updated with the resources we use in 42 cursus.
