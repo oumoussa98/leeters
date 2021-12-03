@@ -19,7 +19,7 @@ date: 2021-12-03T18:19:40.493Z
 - ### [Do you know about va_start but about va_end ?] (https://www.tutorialspoint.com/c_standard_library/c_macro_va_end.htm)
 
 ## Born2beroot
-- ### [What is virtualization?](https://www.redhat.com/en/topics/virtualization/what-is-virtualization)
+- ### [What is virtualization ?](https://www.redhat.com/en/topics/virtualization/what-is-virtualization)
 
 - ### [What is a hypervisor ?](https://www.vmware.com/topics/glossary/content/hypervisor)
 
