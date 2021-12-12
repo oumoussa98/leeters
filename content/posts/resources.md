@@ -38,3 +38,4 @@ Since many people working the same project (at least for now), i decided to make
 * [What is a Package manager ?](https://www.youtube.com/watch?v=0W8-3RwvJwc)
 * [APT package manager](https://www.youtube.com/watch?v=yxc2ntmH9xY)
 * [Shell Scripting](https://www.youtube.com/playlist?list=PLBf0hzazHTGMJzHon4YXGscxUvsFpxrZT)
+* [What is a TTY ?] (https://www.linusakesson.net/programming/tty/)
