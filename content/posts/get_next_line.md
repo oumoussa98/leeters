@@ -32,22 +32,21 @@ char	*get_next_line(int fd);
   		[Video about static variables](https://www.youtube.com/watch?v=OngGUoENgWo)
 
 * Dynamic Memory
+[Blog about malloc](https://www.programiz.com/c-programming/c-dynamic-memory-allocation)
 
-  		[Blog about malloc](https://www.programiz.com/c-programming/c-dynamic-memory-allocation)
+[Deep dive to malloc blog](https://danluu.com/malloc-tutorial/)
+
+[Malloc video](https://www.youtube.com/watch?v=yFboyOwk2oM)
   	 
-  		[Deep dive to malloc blog](https://danluu.com/malloc-tutorial/)
-  	 
-  		[Malloc video](https://www.youtube.com/watch?v=yFboyOwk2oM)
-  	 
-  		[Malloc video 2](https://www.youtube.com/watch?v=SuBch2MZpZM)
+[Malloc video 2](https://www.youtube.com/watch?v=SuBch2MZpZM)
   	 
 * File Descriptors
 
-  		[File descriptor Blog](https://www.computerhope.com/jargon/f/file-descriptor.htm)
+[File descriptor Blog](https://www.computerhope.com/jargon/f/file-descriptor.htm)
   	 
-  		[File Descriptor Video](https://www.youtube.com/watch?v=BQJBe4IbsvQ)
+[File Descriptor Video](https://www.youtube.com/watch?v=BQJBe4IbsvQ)
   	 
-  		[Advanced File descriptor Resource Video](https://www.youtube.com/watch?v=h5A1OQjuCqk&t=1s)
+[Advanced File descriptor Resource Video](https://www.youtube.com/watch?v=h5A1OQjuCqk&t=1s)
   	 
 
 ## Algorithm
