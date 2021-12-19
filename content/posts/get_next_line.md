@@ -27,11 +27,12 @@ char	*get_next_line(int fd);
 
 * Static Variables
 
-  		[Blog about static variables](https://www.c-programming-simple-steps.com/static-keyword-in-c.html)
+[Blog about static variables](https://www.c-programming-simple-steps.com/static-keyword-in-c.html)
 
-  		[Video about static variables](https://www.youtube.com/watch?v=OngGUoENgWo)
+[Video about static variables](https://www.youtube.com/watch?v=OngGUoENgWo)
 
 * Dynamic Memory
+
 [Blog about malloc](https://www.programiz.com/c-programming/c-dynamic-memory-allocation)
 
 [Deep dive to malloc blog](https://danluu.com/malloc-tutorial/)
