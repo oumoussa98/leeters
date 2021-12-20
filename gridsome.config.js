@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'letters',
+  siteName: 'leeters',
   siteDescription: 'A simple, hackable & minimalistic blog for 42 setwok students',
 
   templates: {
