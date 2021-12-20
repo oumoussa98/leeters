@@ -59,7 +59,7 @@ These are pretty straightforward, are also very capability-limited when it comes
 
 Before we start, let’s look at the function prototype for the signal() call:
 
-```
+```c
 void (*signal(int sig, void (*func)(int)))(int);
 ```
 
@@ -71,15 +71,14 @@ Let’s take a moment to take it apart for practice.
 
 signal() takes two arguments: an integer sig representing the signal, and a pointer func to the handler (the handler returns void and takes an int as an argument), highlighted below:
 
-```
-                sig          func
+```c                sig          func
               |-----|  |---------------|
 void (*signal(int sig, void (*func)(int)))(int);
 ```
 
 Basically, we’re going to pass in the signal number we’re interesting in catching, and we’re going to pass a pointer to a function of the form:
 
-```
+```c
 void f(int x);
 ```
 
@@ -87,7 +86,7 @@ that will do the actual catching.
 
 Now—what about the rest of that prototype? It’s basically all the return type. See, signal() will return whatever you passed as func on success… so that means it’s returning a pointer to a function that returns void and takes an int as an argument.
 
-```
+```c
 returned
 function    indicates we're              and
 returns     returning a                  that function
@@ -143,7 +142,7 @@ One of the things you’ll notice is that on line 14 we reset the signal handler
 
 We’re ignoring the return value from signal() in this case. If we’d set it to a different handler earlier, it would return a pointer to that handler, which we could get like this:
 
-```
+```c
 // old_handler is type "pointer to function that takes a single
 // int parameter and returns void":
 
